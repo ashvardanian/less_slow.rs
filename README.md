@@ -21,6 +21,5 @@ To read, jump to the `less_slow.rs` source file and read the code snippets and c
 If you are familiar with Rust and want to review code and measurements as you read, you can clone the repository and execute the following commands.
 
 ```sh
-rustup install nightly-2025-01-11
-cargo +nightly-2025-01-11 bench
+cargo bench
 ```

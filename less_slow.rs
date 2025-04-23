@@ -170,7 +170,7 @@ const PIPE_END: u64 = 49;
 /// Checks if an integer is a power of two.
 #[inline(always)]
 fn is_power_of_two(x: u64) -> bool {
-    x != 0 && (x & (x - 1)) == 0
+    x.count_ones() == 1
 }
 
 /// Checks if an integer is a power of three.
