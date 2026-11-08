@@ -16,7 +16,7 @@ Some of the highlights include:
 
 To read, jump to the `less_slow.rs` source file and read the code snippets and comments.
 
-## Reproducing the Benchmarks
+## Running the Benchmarks
 
 If you are familiar with Rust and want to review code and measurements as you read, you can clone the repository and execute the following commands.
 
